@@ -1,8 +1,8 @@
 package com.greatlearning.holidaydetails.driver;
 
+import com.greatlearning.holidaydetails.model.AdminDepartment;
 import com.greatlearning.holidaydetails.model.HrDepartment;
 import com.greatlearning.holidaydetails.model.TechDepartment;
-import com.greatlearning.holidaydetails.model.AdminDepartment;
 
 public class Driver {
 
