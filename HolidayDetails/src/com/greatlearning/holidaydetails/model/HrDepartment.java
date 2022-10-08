@@ -2,23 +2,19 @@ package com.greatlearning.holidaydetails.model;
 
 public class HrDepartment extends SuperDepartment {
 	public String departmentName() {
-		String name = "HR Department";
-		return name;
+		return "HR Department";
 	}
 
 	public String getTodaysWork() {
-		String work = "Fill today's timesheet and mark your attendance";
-		return work;
+		return "Fill today's timesheet and mark your attendance";
 	}
 
 	public String getWorkDeadline() {
-		String deadline = "Complete by EOD";
-		return deadline;
+		return "Complete by EOD";
 	}
 
 	public String doActivity() {
-		String activity = "Team lunch";
-		return activity;
+		return "Team lunch";
 	}
 
 }
