@@ -2,22 +2,18 @@ package com.greatlearning.holidaydetails.model;
 
 public class SuperDepartment {
 	public String departmentName() {
-		String name = "Super Department";
-		return name;
+		return "Super Department";
 	}
 
 	public String getTodaysWork() {
-		String work = "No work as of now";
-		return work;
+		return "No work as of now";
 	}
 
 	public String getWorkDeadline() {
-		String deadline = "Nil";
-		return deadline;
+		return "Nil";
 	}
 
 	public String isTodayAHoliday() {
-		String holidaydetail = "Today is not a holiday";
-		return holidaydetail;
+		return "Today is not a holiday";
 	}
 }
