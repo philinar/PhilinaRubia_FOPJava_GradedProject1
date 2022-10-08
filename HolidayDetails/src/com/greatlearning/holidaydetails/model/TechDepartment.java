@@ -3,23 +3,19 @@ package com.greatlearning.holidaydetails.model;
 public class TechDepartment extends SuperDepartment {
 
 	public String departmentName() {
-		String name = "Tech Department";
-		return name;
+		return "Tech Department";
 	}
 
 	public String getTodaysWork() {
-		String work = "Complete coding of module1";
-		return work;
+		return "Complete coding of module1";
 	}
 
 	public String getWorkDeadline() {
-		String deadline = "Complete by EOD";
-		return deadline;
+		return "Complete by EOD";
 	}
 
 	public String getTechStackInformation() {
-		String stackinfo = "Core Java";
-		return stackinfo;
+		return "Core Java";
 	}
 
 }
